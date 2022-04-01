@@ -14,7 +14,7 @@ function fizzbuzz(i) {
   }
 }
 
-for (var i = 0; i <= limit; i++) {
+for (var i = 1; i <= limit; i++) {
   final.push(fizzbuzz(i))
 }
 document.querySelector("a").textContent = final
